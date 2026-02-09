@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # AutoFlow CLI
 
 AutoFlow is a Rust-based Command-Line Interface (CLI) tool that automates repetitive tasks. 
