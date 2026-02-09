@@ -23,3 +23,11 @@ It helps developers quickly initialize project structures, manage files, and run
 1. Clone the repository:  
 ```bash
 git clone https://github.com/Sunil-alexander/autoflow
+## Usage Example
+./autoflow-x86_64 init rust
+./autoflow-x86_64 organize Documents
+./autoflow-x86_64 clean
+=======
+# autoflow-automation-tool
+
+>>>>>>> 7544c6cb88f7e035974863ca43e2c48e4a6d9260
