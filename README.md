@@ -14,4 +14,4 @@ AutoFlow is a Rust-based Command-Line Interface (CLI) tool that automates repeti
 ./autoflow-x86_64 clean
 =======
 # autoflow-automation-tool
->>>>>>> 324305c9201ed0bf037878ef0f25fdfa4cfd7320
+
