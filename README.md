@@ -1,17 +1,25 @@
+# AutoFlow
 
-# AutoFlow 
-
-AutoFlow is a Rust-based Command-Line Interface (CLI) tool that automates repetitive tasks. 
+AutoFlow is a **Rust-based command-line tool** designed to automate repetitive project tasks.  
+It helps developers quickly initialize project structures, manage files, and run workflows efficiently.  
 
 ## Features
-- Initialize project folders (Rust, Python, Web)
-- Organize files in folders by type
-- Clean temporary files
+- CLI interface for easy navigation
+- Automates project directory creation and configuration files
+- Runs scripts and checks project status
+- Reduces human errors in repetitive tasks
+- Demonstrates Rust’s speed and reliability
 
-## Usage Example
-./autoflow-x86_64 init rust
-./autoflow-x86_64 organize Documents
-./autoflow-x86_64 clean
-=======
-# autoflow-automation-tool
->>>>>>> 324305c9201ed0bf037878ef0f25fdfa4cfd7320
+## Technical Implementation
+- Written in Rust, using Cargo for dependency management
+- Project structure:
+  - `src/main.rs` – CLI logic and automation tasks
+  - `Cargo.toml` – dependencies and metadata
+  - `README.md` – project documentation
+  - `index.html` – website demo (GitHub Pages)
+- Modular and scalable code for maintainability
+
+## Usage
+1. Clone the repository:  
+```bash
+git clone https://github.com/Sunil-alexander/autoflow
