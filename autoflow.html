@@ -3,95 +3,197 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>AutoFlow Project</title>
+    <title>AutoFlow – File Automation Tool</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f8;
             color: #333;
             line-height: 1.6;
             margin: 0;
-            padding: 20px;
+            padding: 0;
         }
 
         header {
-            background-color: #1a73e8;
+            background-color: #6f73a2;
             color: white;
-            padding: 20px 0;
+            padding: 20px;
             text-align: center;
-            margin-bottom: 20px;
         }
 
-        h1,
+        section {
+            background: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 6px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
         h2 {
-            margin: 10px 0;
-        }
-
-        p {
-            margin: 10px 0;
+            color: #1e293b;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 5px;
         }
 
         ul {
-            margin: 10px 0;
+            margin-left: 20px;
         }
 
-        a {
-            color: #1a73e8;
-            text-decoration: none;
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #1e293b;
+            color: white;
         }
 
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+        code {
+            background-color: #eef2f7;
+            padding: 4px 6px;
+            border-radius: 4px;
         }
     </style>
 </head>
 
 <body>
+
     <header>
-        <h1>AutoFlow Project</h1>
+        <h1>AutoFlow</h1>
+        <p>Automated File Organization System using Rust</p>
     </header>
 
-    <div class="container">
-        <h2>Project Description</h2>
-        <p>AutoFlow is a Rust-based command-line tool designed to automate repetitive project tasks.</p>
-        <p>It helps developers initialize project structures and manage files efficiently.</p>
-        <p>The tool uses a simple CLI interface that is easy to navigate.</p>
-        <p>AutoFlow reduces human error by automating common workflows.</p>
-        <p>It organizes project directories and generates necessary configuration files automatically.</p>
-        <p>Users can run scripts, compile code, and check project status through the CLI.</p>
-        <p>The project demonstrates Rust’s speed, reliability, and strong type system.</p>
-        <p>AutoFlow includes a clear README and optional website for easy project presentation.</p>
-        <p>It is suitable for both beginners learning Rust and developers managing larger projects.</p>
-        <p>Overall, AutoFlow streamlines development, saving time and improving productivity.</p>
+    <section>
+        <h2>Project Overview</h2>
+        <p>
+            AutoFlow is a command-line based file automation tool developed using the Rust programming language.
+            The main purpose of this project is to automatically organize files in a directory based on their
+            file types such as documents, images, videos, and other categories.
+        </p>
+        <p>
+            This project helps users save time and reduce manual effort when managing large numbers of files
+            on their system.
+        </p>
+    </section>
 
-        <h2>How to Use</h2>
-        <ol>
-            <li>Clone the repository:
-                <pre>git clone https://github.com/Sunil-alexander/AutoFlow</pre>
-            </li>
-            <li>Navigate to the folder:
-                <pre>cd AutoFlow</pre>
-            </li>
-            <li>Run the CLI:
-                <pre>cargo run</pre>
-            </li>
-        </ol>
+    <section>
+        <h2>Problem Statement</h2>
+        <p>
+            Many users store files in a single folder such as the Desktop or Downloads directory.
+            Over time, this leads to clutter, difficulty in finding files, and poor file management.
+            Manual sorting of files is time-consuming and inefficient.
+        </p>
+        <p>
+            AutoFlow solves this problem by automatically detecting file types and moving them into
+            appropriate folders without user intervention.
+        </p>
+    </section>
 
-        <h2>Links</h2>
+    <section>
+        <h2>Objectives of the Project</h2>
         <ul>
-            <li><a href="https://github.com/Sunil-alexander/AutoFlow">GitHub Repository</a></li>
-            <li><a href="https://sunil-alexander.github.io/AutoFlow">Link to website</a></li>
+            <li>To automate file organization using a command-line interface</li>
+            <li>To reduce manual effort in managing files</li>
+            <li>To demonstrate system automation using Rust</li>
+            <li>To provide a fast, reliable, and secure solution</li>
+            <li>To apply real-world use of file handling concepts</li>
         </ul>
-    </div>
+    </section>
+
+    <section>
+        <h2>Key Features</h2>
+        <ul>
+            <li>Automatic file detection based on extensions</li>
+            <li>Creates folders dynamically if they do not exist</li>
+            <li>Moves files safely without data loss</li>
+            <li>Works through a simple command-line interface</li>
+            <li>Fast execution due to Rust’s performance</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Technologies Used</h2>
+        <ul>
+            <li><strong>Programming Language:</strong> Rust</li>
+            <li><strong>Build Tool:</strong> Cargo</li>
+            <li><strong>Platform:</strong> Windows / Linux</li>
+            <li><strong>Version Control:</strong> Git and GitHub</li>
+            <li><strong>Interface:</strong> Command Line Interface (CLI)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Project Architecture</h2>
+        <p>
+            AutoFlow follows a simple and modular architecture. The program scans a given directory,
+            identifies files based on their extensions, and maps them to predefined categories.
+            Each category corresponds to a folder.
+        </p>
+        <p>
+            The application uses Rust’s standard library for file system operations such as reading directories,
+            creating folders, and moving files.
+        </p>
+    </section>
+
+    <section>
+        <h2>How AutoFlow Works</h2>
+        <ol>
+            <li>The user runs the AutoFlow executable from the command prompt</li>
+            <li>The program scans the target directory</li>
+            <li>File extensions are analyzed</li>
+            <li>Folders are created if they do not already exist</li>
+            <li>Files are moved into their respective folders</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Command Line Usage</h2>
+        <p>Example command:</p>
+        <p>
+            <code>autoflow.exe "C:\Users\sunil\OneDrive\Desktop\autoflow files"</code>
+        </p>
+        <p>
+            This command organizes all files inside the specified directory.
+        </p>
+    </section>
+
+    <section>
+        <h2>Advantages of AutoFlow</h2>
+        <ul>
+            <li>Saves time and effort</li>
+            <li>Improves file organization</li>
+            <li>Reduces human error</li>
+            <li>Lightweight and fast</li>
+            <li>Cross-platform support</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Future Enhancements</h2>
+        <ul>
+            <li>GUI-based interface</li>
+            <li>User-defined rules for file organization</li>
+            <li>Scheduled automatic execution</li>
+            <li>Log file generation</li>
+            <li>Cloud storage support</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Conclusion</h2>
+        <p>
+            AutoFlow is a practical automation project that demonstrates the use of Rust for real-world
+            system tasks. It provides an efficient solution to the common problem of file clutter and
+            showcases important concepts such as file handling, automation, and command-line tools.
+        </p>
+        <p>
+            This project can be further expanded and used in professional environments.
+        </p>
+    </section>
+
+    <footer>
+        <p>AutoFlow Project © 2026</p>
+    </footer>
+
 </body>
 
 </html>
