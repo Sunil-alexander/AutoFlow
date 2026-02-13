@@ -19,14 +19,40 @@ It helps developers quickly initialize project structures, manage files, and run
   - `index.html` – website demo (GitHub Pages)
 - Modular and scalable code for maintainability
 
-## Usage
-1. Clone the repository:  
-```bash
-git clone https://github.com/Sunil-alexander/autoflow
-## Usage Example
-./autoflow-x86_64 init rust
-./autoflow-x86_64 organize Documents
-./autoflow-x86_64 clean
-=======
-# autoflow-automation-tool
+## Technologies Used
 
+- Rust – memory-safe, fast, and reliable system programming
+- Cargo – build and dependency management
+- Clap – command-line argument parsing
+- Git & GitHub – version control
+- GitHub Pages – live project website
+- Cross-compilation – Linux x86_64 and ARM aarch64
+
+## Design Decisions
+
+- Rust: Chosen for performance and safety
+-  CLI interface: Lightweight and fast, no GUI overhead
+- Modular code structure: Improves readability and maintainability
+- Cross-compilation: Demonstrates flexibility for Linux platforms
+- Safe file movement: Prevents data loss or overwriting
+
+## Advantages
+
+- Saves time by automating repetitive tasks
+- Reduces human error
+- Lightweight and fast
+- Cross-platform Linux compatibility
+- Scalable and maintainable code
+
+## Future Enhancements
+
+- GUI interface for easier use
+- User-defined rules for file organization
+- Logging and reporting system
+- Scheduled automation (cron / Task Scheduler)
+- Cloud integration for project syncing
+
+## Author
+
+Sunil Alexander
+Health Informatics | Digital Business Exam | February 2026
