@@ -1,1 +1,0 @@
-/mnt/c/Users/sunil/OneDrive/Desktop/AutoFlow/target/aarch64-unknown-linux-gnu/release/autoflow: /mnt/c/Users/sunil/OneDrive/Desktop/AutoFlow/src/main.rs /mnt/c/Users/sunil/OneDrive/Desktop/AutoFlow/src/tasks.rs
